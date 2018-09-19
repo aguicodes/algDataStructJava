@@ -12,19 +12,22 @@ public class Main {
         // lets lear about stack first - FIFO (First in First out)
         //stack is commonly implemented though linked list or arrays
 
-        intStack stack = new intStack(10);
+        intStack stack = new intStack(5);
         System.out.println(stack.Pop());
+        // recieve -1 if empty
 
         stack.Push(1);
         stack.Push(2);
         stack.Push(3);
         stack.Push(4);
         stack.Push(5);
+        // let's try and push when full
+        stack.Push(6);
 
         System.out.println(stack.Pop());
         System.out.println(stack.Pop());
 
-        System.out.printf("let's po the remaining 3...\n");
+        System.out.printf("let's pop the remaining 3...\n");
         System.out.println(stack.Pop());
         System.out.println(stack.Pop());
         System.out.println(stack.Pop());
