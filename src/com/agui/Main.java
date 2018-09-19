@@ -9,7 +9,7 @@ public class Main {
         System.out.println(word);
         System.out.printf("%s\n", word);
 
-        // lets lear about stack first - FIFO (First in First out)
+        // lets learn about stack first - FILO (First in Last out)
         //stack is commonly implemented though linked list or arrays
 
         intStack stack = new intStack(5);
