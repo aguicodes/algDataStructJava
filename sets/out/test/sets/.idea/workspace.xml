@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14ade011-bcfc-4ca7-af45-9bd486ecc85e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/agui/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/agui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/agui/setImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/agui/setImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2018-code-samples" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-code-samples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/build/default/debug/HW1_AGUILAR.err" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/build/default/debug/HW1_AGUILAR.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/build/default/debug/HW1_AGUILAR.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/build/default/debug/HW1_AGUILAR.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/build/default/production/HW1_AGUILAR.err" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/build/default/production/HW1_AGUILAR.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/build/default/production/HW1_AGUILAR.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/build/default/production/HW1_AGUILAR.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/debug/default/defmplabxtrace.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/debug/default/defmplabxtrace.log.inx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/dist/default/debug/HW1_AGUILAR.X.debug.cof" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/dist/default/debug/HW1_AGUILAR.X.debug.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/dist/default/production/HW1_AGUILAR.X.production.cof" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/dist/default/production/HW1_AGUILAR.X.production.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/dist/default/production/HW1_AGUILAR.X.production.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/Makefile-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/Makefile-genesis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/Makefile-impl.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/Makefile-local-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/Makefile-variables.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/Package-default.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/private/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW1_AGUILAR.X/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/build/default/debug/HW2_Aguilar.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/build/default/debug/HW2_Aguilar.p1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/build/default/debug/HW2_Aguilar.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/build/default/production/HW2_Aguilar.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/build/default/production/HW2_Aguilar.p1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/build/default/production/HW2_Aguilar.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/debug/default/defmplabxtrace.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/debug/default/defmplabxtrace.log.inx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.cmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.hxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.mum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.rlf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.sdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/HW2_AGUILAR.X.debug.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/debug/memoryfile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.cmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.hxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.mum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.rlf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.sdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/HW2_AGUILAR.X.production.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/dist/default/production/memoryfile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/Makefile-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/Makefile-genesis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/Makefile-impl.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/Makefile-local-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/Makefile-variables.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/Package-default.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/private/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/HW2_AGUILAR.X/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/Homework 1(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/Homework 2(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Homework/IMG_4935.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/IMG_4946.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/IMG_8881.m4v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB1/Lab-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/build/default/production/Lab2.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/build/default/production/Lab2.p1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/build/default/production/Lab2.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.cmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.hxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.rlf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.sdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/dist/default/production/LAB2_LCD.X.production.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/funclist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/l.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/Makefile-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/Makefile-genesis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/Makefile-impl.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/Makefile-local-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/Makefile-variables.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/Package-default.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/private/SuppressibleMessageMemo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/private/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/LAB2_LCD.X/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB2/Lab-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/build/default/production/gpio.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/build/default/production/gpio.p1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/build/default/production/gpio.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.cmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.hxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.rlf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.sdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/dist/default/production/GPIO.X.production.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/funclist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/l.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/Makefile-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/Makefile-genesis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/Makefile-impl.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/Makefile-local-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/Makefile-variables.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/Package-default.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/private/SuppressibleMessageMemo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/private/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/GPIO.X/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/Lab-3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/Lab3Notes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB3/ascii_table(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/build/default/production/adc.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/build/default/production/adc.p1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/build/default/production/adc.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.cmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.hxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.rlf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.sdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/dist/default/production/ADC.X.production.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/funclist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/l.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/Makefile-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/Makefile-genesis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/Makefile-impl.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/Makefile-local-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/Makefile-variables.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/Package-default.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/private/SuppressibleMessageMemo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/private/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/ADC.X/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/Lab-4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB4/Lab4_Notes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/build/default/production/dac.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/build/default/production/dac.p1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/build/default/production/dac.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.cmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.hxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.mum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.rlf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.sdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/DAC.X.production.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/dist/default/production/memoryfile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/Makefile-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/Makefile-genesis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/Makefile-impl.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/Makefile-local-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/Makefile-variables.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/Package-default.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/private/SuppressibleMessageMemo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/private/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/DAC.X/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/Lab 5 Notes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB5/Lab-5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/Lab-6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/Lab6Notes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/build/default/production/TMR_INTRPT.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/build/default/production/TMR_INTRPT.p1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/build/default/production/TMR_INTRPT.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.cmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.hxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.mum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.rlf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.sdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/TMR_INTRPT.X.production.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/dist/default/production/memoryfile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/Makefile-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/Makefile-genesis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/Makefile-impl.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/Makefile-local-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/Makefile-variables.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/Package-default.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/private/SuppressibleMessageMemo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/private/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/LAB6/TMR_INTRPT.X/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lab7ABET/Alarm-System.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lab7ABET/Lab7ABET.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lab7ABET/alarm_sys_report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lab7ABET/alarm_system/alarm_sys.X" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lecture-1-Introduction.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lecture-2-1-Numeric Conversions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lecture-2-PIC Overview.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lecture-3-PIC Assembly.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lecture-4-Branching.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lecture-5-PIC IO.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lecture-6-PIC Programming in C.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Lecture-7-Arithmetic and Logic.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/PIC Solutions Manual.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/Textbook.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/alarm_sys_report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/build/default/production/alarm_sys.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/build/default/production/alarm_sys.p1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/build/default/production/alarm_sys.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.cmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.hxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.mum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.rlf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.sdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/alarm_sys.X.production.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/doprnt.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/doprnt.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/doprnt.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/dist/default/production/memoryfile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/Makefile-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/Makefile-genesis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/Makefile-impl.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/Makefile-local-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/Makefile-variables.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/Package-default.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/private/SuppressibleMessageMemo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/private/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/all parts/alarm_sys.X/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/cse3442.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/cse3442.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/build/default/production/toggle_led.p1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/build/default/production/toggle_led.p1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/build/default/production/toggle_led.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/memoryfile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.cmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.hxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.mum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.rlf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.sdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/dist/default/production/toggle_led.X.production.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/Makefile-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/Makefile-genesis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/Makefile-impl.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/Makefile-local-default.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/Makefile-variables.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/Package-default.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/private/SuppressibleMessageMemo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/private/configurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmbeddedSys/toggle_led.X/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracSys/cse2100" beforeDir="false" afterPath="$PROJECT_DIR$/../PracSys/cse2100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen Shot 2017-11-08 at 9.19.47 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tera Term.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git-fun" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../internship docs/Amaxon_Part1_Debug_Code.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../internship docs/Amazon_Part1_Multiple_Choice.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../internship docs/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/../internship docs/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.36.14 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.36.30 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.36.54 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.38.23 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.41.50 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.41.50 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.45.31 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.45.31 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.45.35 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.45.35 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.48.27 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.48.27 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.50.33 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.50.33 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.51.48 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.51.48 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.52.42 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.54.36 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.55.14 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.55.14 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.55.24 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.55.39 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 5.56.54 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.00.25 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.02.13 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.03.48 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.04.23 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.07.03 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.08.31 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.09.04 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.10.21 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.10.23 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.11.25 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.11.34 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.11.59 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.12.59 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.13.55 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.13.56 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.14.50 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.15.29 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.15.32 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.16.50 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.17.27 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.18.04 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.18.05 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.18.09 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.18.13 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.18.54 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.19.01 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-29 at 6.19.47 PM (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.07.41 PM copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.07.41 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.09.44 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.20.35 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.20.45 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.20.51 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.20.57 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.21.02 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.22.52 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.26.44 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.26.47 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 1.26.50 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Archive/Screen Shot 2017-08-30 at 12.20.44 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/build/classes/javabasics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/JavaBasics/src/javabasics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/TwitterTest2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/dad.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/src/java_files.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/java_files/src/java_files.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_Twitter/twitter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$2440Lab1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$3301-PART-I-NORMAL-DIST.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$3301-SAMPLE-FORMAT-PART-I-NORMAL-DIST(1).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$_Lab7_reportkah.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$erReview-CSE3310SP2017AP.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$erReview-CSE3310SP2017AS.docx" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1747505271">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1391" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1391" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/agui/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/agui/BankAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/agui/setImplementation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/agui/setImplementationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/agui/BankAccount.java" />
+        <option value="$PROJECT_DIR$/src/com/agui/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/agui/setImplementation.java" />
+        <option value="$PROJECT_DIR$/src/com/agui/setImplementationTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="36" />
+    <option name="y" value="22" />
+    <option name="width" value="1244" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sets" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539038619673" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.agui" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.setImplementationTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.agui.Main" />
+      <module name="sets" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="setImplementationTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="sets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agui" />
+      <option name="MAIN_CLASS_NAME" value="com.agui.setImplementationTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.setImplementationTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14ade011-bcfc-4ca7-af45-9bd486ecc85e" name="Default Changelist" comment="" />
+      <created>1538423652775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538423652775</updated>
+      <workItem from="1538423658179" duration="2525000" />
+      <workItem from="1539028561043" duration="1641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4166000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="55" y="22" width="1225" height="778" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24344885" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33381924" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24376039" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/agui/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agui/setImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agui/setImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sets</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
